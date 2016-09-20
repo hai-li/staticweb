@@ -4,7 +4,7 @@ MAINTAINER Docker Education Team <education@docker.com>
 RUN apt-get update
 RUN apt-get install -y nginx
 RUN echo "foo"
-RUN echo 'Hi, I am in your new new container' \
+RUN echo 'Hi, I am in your new new new container' \
     >/usr/share/nginx/html/index.html
 
 CMD [ "nginx", "-g", "daemon off;" ]
